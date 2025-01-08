@@ -9,3 +9,9 @@ spring:
 # Server configuration
 server:
   port: 8088
+
+logging:
+  level:
+    com.netflix.eureka: DEBUG
+    com.netflix.discovery: DEBUG
+    org.springframework.cloud.netflix.eureka.server: DEBUG
